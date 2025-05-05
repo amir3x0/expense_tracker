@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:expense_tracker/expenses.dart';
-import 'package:flutter/services.dart';
+// import 'package:expense_tracker/expenses.dart'; // Comment out or remove
+import 'package:expense_tracker/screens/auth/login_screen.dart'; // Add this import
 
 var kColorScheme = ColorScheme.fromSeed(
   seedColor: const Color.fromARGB(255, 111, 49, 212),
@@ -83,7 +83,7 @@ void main() {
           labelStyle: TextStyle(color: kColorScheme.onSecondaryContainer),
         ),
       ),
-      home: Expenses(),
+      home: const LoginScreen(), // To this
     ),
   );
   // });
