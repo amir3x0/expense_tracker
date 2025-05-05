@@ -6,6 +6,7 @@ import 'package:expense_tracker/widgets/new_expense.dart';
 class Expenses extends StatefulWidget {
   const Expenses({super.key});
 
+  @override
   State<Expenses> createState() {
     return _ExpensesState();
   }
